@@ -5,7 +5,7 @@ from SCons.Script import DefaultEnvironment, SConscript
 
 
 env = DefaultEnvironment()
-build_script = join(env.PioPlatform().get_package_dir("framework-arduino-hc32f46x"), "tools", "platformio", "platformio-build-arduino.py")
+build_script = join(env.PioPlatform().get_package_dir("framework-arduino-hc32f460kcta"), "tools", "platformio", "platformio-build-arduino.py")
 
 if not isfile(build_script):
     sys.stderr.write(f"Error: Missing PlatformIO build script {build_script}!\n")

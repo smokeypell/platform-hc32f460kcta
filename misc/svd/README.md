@@ -1,1 +1,1 @@
-svd files extraced from IDE support package (HC32F460_IDE_Rev1.0.8.zip)
+svd files extracted from IDE support pack (HDSC.HC32F460.1.0.9.pack)

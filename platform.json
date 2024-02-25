@@ -1,8 +1,8 @@
 {
-  "name": "hc32f46x",
-  "version": "1.0.0",
-  "title": "HC32F46X",
-  "description": "HC32F46x",
+  "name": "hc32f460kcta",
+  "version": "0.0.1_beta",
+  "title": "HC32F460KCTA",
+  "description": "HC32F460KCTA",
   "homepage": "",
   "license": "Apache-2.0",
   "keywords": ["dev-platform", "ARM", "Cortex-M", "HC32"],
@@ -11,20 +11,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shadow578/platform-hc32f46x.git"
+    "url": "https://github.com/smokeypell/platform-hc32f460kcta.git"
   },
   "frameworks": {
     "ddl": {
-      "package": "framework-hc32f46x-ddl",
+      "package": "framework-hc32f460kcta-ddl",
       "script": "builder/frameworks/ddl.py",
-      "description": "HC32F46x Device Driver Library",
+      "description": "HC32F460KCTA Device Driver Library",
       "homepage": "",
-      "title": "HC32F46x DDL"
+      "title": "HC32F460KCTA DDL"
     },
     "arduino": {
-      "package": "framework-arduino-hc32f46x",
+      "package": "framework-arduino-hc32f460kcta",
       "script": "builder/frameworks/arduino.py",
-      "description": "Arduino Wiring-based Framework allows writing cross-platform software to control devices attached to a wide range of Arduino boards to create all kinds of creative coding, interactive objects, spaces or physical experiences",
+      "description": "Arduino Wiring-based Framework for the Huada HC32F460KCTA microcontroller allows writing cross-platform software to control devices attached to a wide range of Arduino boards to create all kinds of creative coding, interactive objects, spaces or physical experiences",
       "homepage": "http://arduino.cc/en/Reference/HomePage",
       "title": "Arduino"
     }
@@ -35,13 +35,13 @@
       "owner": "platformio",
       "version": "=1.120301.0"
     },
-    "framework-arduino-hc32f46x": {
+    "framework-arduino-hc32f460kcta": {
       "type": "framework",
-      "version": "https://github.com/shadow578/framework-arduino-hc32f46x.git"
+      "version": "https://github.com/smokeypell/framework-arduino-hc32f460kcta.git"
     },
-    "framework-hc32f46x-ddl": {
+    "framework-hc32f460kcta-ddl": {
       "type": "framework",
-      "version": "https://github.com/shadow578/framework-hc32f46x-ddl.git"
+      "version": "https://github.com/smokeypell/framework-hc32f460kcta-ddl.git"
     }
   }
 }

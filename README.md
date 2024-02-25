@@ -12,8 +12,8 @@ These MCUs are somewhat often found in entry level 3D printers, tho development 
 
 ```ini
 [env:myenv]
-platform = https://github.com/shadow578/platform-hc32f46x.git
-board = generic_hc32f460
+platform = https://github.com/smokeypell/platform-hc32f460kcta.git
+board = hc32f460kcta
 ...
 ```
 
@@ -21,7 +21,7 @@ board = generic_hc32f460
 
 The platform itself contains basically no configuration options.
 Everything is configured in the framework packages.
-Please refer to [framework-arduino-hc32f46x](https://github.com/shadow578/framework-arduino-hc32f46x) and [framework-hc32f46x-ddl](https://github.com/shadow578/framework-hc32f46x-ddl) for more information.
+Please refer to [framework-arduino-hc32f46x](https://github.com/smokeypell/framework-arduino-hc32f460kcta) and [framework-hc32f46x-ddl](https://github.com/smokeypell/framework-hc32f460kcta-ddl) for more information.
 
 # Notice
 
